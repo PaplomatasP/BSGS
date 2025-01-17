@@ -65,8 +65,6 @@ print(bsgs_results$final_scores)
 
 ```
 
-
-
 ## Gene Score Distribution Plot
 
 When `plot_distribution = TRUE` is set in the **BSGS** function, a gene score distribution plot is displayed to the user. This plot visualizes the scores of all genes analyzed, allowing the user to identify meaningful thresholds for selecting the final genes based on their scores. The user is prompted to provide a threshold value, and genes with scores above this threshold are retained.
@@ -75,5 +73,13 @@ Below is an example of the gene score distribution plot:
 
 
 ![Gene Score Distribution Plot](https://github.com/PaplomatasP/BSGS/blob/Master/Experiment/Results%20from%20the%20Bayesian%20Gene%20Scoring%20System%20(BSGS)_20000.png)
+
+
+### Insights and Observations
+
+- **Selecting a threshold above Q3**: Based on our experiments, retaining genes with scores above the third quartile (Q3) ensures a robust and highly informative subset of genes. This threshold balances reducing dimensionality with maintaining meaningful biomarkers.
+
+- **Convergence of Q1, Q2, Q3, and the mean**: When the quartiles (Q1, Q2, Q3) and the mean converge, as shown in the plot, it indicates that the desired number of iterations has been reached. This convergence ensures stability in the gene scores and highlights the robustness of the BSGS method.
+
 
 
