@@ -81,5 +81,7 @@ Below is an example of the gene score distribution plot:
 
 - **Convergence of Q1, Q2, Q3, and the mean**: When the quartiles (Q1, Q2, Q3) and the mean converge, as shown in the plot, it indicates that the desired number of iterations has been reached. This convergence ensures stability in the gene scores and highlights the robustness of the BSGS method.
 
+ **If plot_distribution = FALSE, you can retain the desired number of genes with the best scores by using the parameter n_genes.
+
 
 
