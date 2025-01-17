@@ -1,0 +1,14 @@
+Package: BSGS
+Type: Package
+Title: Bayesian Gene Scoring System
+Version: 0.1.0
+Authors@R: person("Petros", "Paplomatas", email = "petros.paplomatas@gmail.com", role = c("aut", "cre"))
+Description: Implements a Bayesian-based gene scoring system for biomarker discovery.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    glmnet,
+    ggplot2,
+    scales
+RoxygenNote: 7.3.2
