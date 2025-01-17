@@ -74,5 +74,5 @@ When `plot_distribution = TRUE` is set in the **BSGS** function, a gene score di
 Below is an example of the gene score distribution plot:
 
 
-![Gene Score Distribution Plot](Experiment/Results_from_the_Bayesian_Gene_Scoring_System_(BSGS)_20000.png)
+![Gene Score Distribution Plot](Experiment/Results from the Bayesian Gene Scoring System (BSGS)_20000.png)
 
