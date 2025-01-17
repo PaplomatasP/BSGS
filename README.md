@@ -64,3 +64,14 @@ print(bsgs_results$final_genes)
 print(bsgs_results$final_scores)
 
 ```
+
+
+
+## Gene Score Distribution Plot
+
+When `plot_distribution = TRUE` is set in the **BSGS** function, a gene score distribution plot is displayed to the user. This plot visualizes the scores of all genes analyzed, allowing the user to identify meaningful thresholds for selecting the final genes based on their scores. The user is prompted to provide a threshold value, and genes with scores above this threshold are retained.
+
+Below is an example of the gene score distribution plot:
+
+```{r, echo=FALSE, out.width="100%", fig.align='center'}
+knitr::include_graphics("Experiment/Results_from_the_Bayesian_Gene_Scoring_System_(BSGS)_20000.png")
