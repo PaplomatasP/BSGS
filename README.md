@@ -74,4 +74,5 @@ When `plot_distribution = TRUE` is set in the **BSGS** function, a gene score di
 Below is an example of the gene score distribution plot:
 
 ```{r, echo=FALSE, out.width="100%", fig.align='center'}
-knitr::include_graphics("Experiment/Results_from_the_Bayesian_Gene_Scoring_System_(BSGS)_20000.png")
+![Gene Score Distribution Plot](Experiment/Results_from_the_Bayesian_Gene_Scoring_System_(BSGS)_20000.png)
+
