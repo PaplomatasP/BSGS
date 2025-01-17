@@ -26,7 +26,7 @@ To get started, install the BSGS package directly from GitHub:
 install.packages("devtools")
 
 # Install BSGS from GitHub
-devtools::install_github("your-username/BSGS")
+devtools::install_github("PaplomatasP/BSGS")
 
 # Load the BSGS package
 library(BSGS)
