@@ -1,6 +1,6 @@
 # Citation
 If you use BSGS in your research, please cite:
-Paplomatas, P. Bayesian Subset-based Gene Selection: A Stochastic Multi-Criteria Approach for High-Dimensional Biomarker Identification (2025).
+Paplomatas, P., Kyriakou, Z., Anagnostopoulos, K., & Vrahatis, A. (2025). Bayesian subset-based gene selection for biomarker discovery in high-dimensional data. Academia Molecular Biology and Genomics, 2(2). https://doi.org/10.20935/AcadMolBioGen7733
 
 # BSGS: Bayesian Subset-based Gene Selection  
 **A Stochastic Multi-Criteria Approach for High-Dimensional Biomarker Identification**
